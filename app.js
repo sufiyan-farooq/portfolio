@@ -25,3 +25,6 @@ const typed = new Typed('.type',{
     loop: true,
 
 });
+
+
+
