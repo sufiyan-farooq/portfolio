@@ -1082,9 +1082,7 @@ footer img {
 
 @media screen and (max-width:990px) {
   
-  section{
-    min-height: 100vh;
-  }
+ 
   
   .content{
     margin-top: 40px;
