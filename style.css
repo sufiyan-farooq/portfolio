@@ -70,6 +70,7 @@ nav ul {
   overflow-y: hidden;
   transition: 1s cubic-bezier(.68,-0.55,.27,10.55);
   box-shadow: var(--nav-shadow);
+  z-index: 16;
 }
 
 nav ul li {
