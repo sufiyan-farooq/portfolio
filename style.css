@@ -822,7 +822,9 @@ border: 1px solid #747373;
   left: -1.25rem;
   background-color: var(--brand-color);
 }
-
+.passion ul li{
+  list-style: none;
+}
 .carding__button {
   padding: 8px 15px;
   width: fit-content;
