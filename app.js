@@ -28,3 +28,45 @@ const typed = new Typed('.type',{
 
 
 
+// Show Back to Top Button When Scrolling Down
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+
+// Scroll to Top When Button Clicked
+document.getElementById("back-to-top").onclick = function() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+
+
+
+
+window.addEventListener('scroll', function() {
+  var scrollPosition = window.scrollY;
+  var backToTopButton = document.getElementById('back-to-top');
+
+  if (scrollPosition > 200) { // Adjust the value according to when you want the button to appear
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  }
+});
+
+
+
+
+
+
+
+
+
+

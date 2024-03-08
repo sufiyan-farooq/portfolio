@@ -18,7 +18,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -949,9 +948,9 @@ ul {
       }
 .contact-area {
   width: 100%;
-  height: 520px;
   margin-top: 100px;
 }
+
 
 .contact-content p {
   font-size: 15px;
@@ -959,6 +958,13 @@ ul {
   position: relative;
   color: #b2b3b3;
 
+}
+
+.footer h6{
+  border-top: 1px solid #fff;
+padding-top: 30px;
+  color: #fff !important;
+  margin-top: 60px;
 }
 
 
@@ -1028,9 +1034,7 @@ ul {
 
 
 }
-.passion ul{
-  list-style: var(--brand-color);
-}
+
 #footer-last span{
   font-family:signature;
   font-size: 20px;
@@ -1050,6 +1054,31 @@ footer img {
   width: 50px;
 }
 
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 25px;
+  background-color: #0bdcdc;
+  color: white;
+  padding: 8px 17px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.9s ease; /* Add transition effect */
+}
+
+#back-to-top:hover {
+  background-color: #03abab;
+}
+
+#back-to-top.show {
+  opacity: 1; /* When the class 'show' is added, set opacity to 1 */
+}
 
 @media screen and (max-width:990px) {
   
@@ -1144,6 +1173,7 @@ footer p{
   font-size: 11px;
   margin-left: 100px;
 }
+
 #footer-logo{
   font-size: 30px !important;
   margin-left: 80px;
@@ -1167,14 +1197,24 @@ footer p{
     width: 220px;
     height: 220px;
 }
+#back-to-top {
+  bottom: 20px;
+  right: 20px;
+
+  padding: 5px 13px;
+  
+
+}
 .contact-area{
   margin-top: 40px;
+  height: 400px;
 }
 .carding{
   margin-left: -35px;
 }
 .contact-content p{
   margin-left: 0px;
+  margin-top: 80px;
 }
 
 #logo-name{
@@ -1252,3 +1292,4 @@ footer p{
     margin-left: -68px;
   }
 }
+
