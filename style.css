@@ -1244,9 +1244,7 @@ footer p{
 .button{
     padding: 8px 10px;
 }
-.passion ul{
-  list-style: var(--brand-color);
-}
+
 #footer-logo{
   margin: 0px;
 }
